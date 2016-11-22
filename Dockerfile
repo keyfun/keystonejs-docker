@@ -1,8 +1,8 @@
-FROM node
+FROM node:6.9.1
 
-MAINTAINER Ng Yuk Man <ngyukman@gmail.com>
+MAINTAINER Key <keyfun.hk@gmail.com>
 
-ENV KEYSTONEJS_VERSION 0.3.17
+ENV KEYSTONEJS_VERSION 4.0.0-beta.3
 
 ENV NODE_MODULE_INSTALLATION_PATH /usr/src/modules
 ENV NODE_PATH $NODE_MODULE_INSTALLATION_PATH/node_modules

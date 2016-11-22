@@ -1,6 +1,6 @@
-FROM ngyukman/keystonejs:0.3
+FROM keyfun/keystonejs:latest
 
-MAINTAINER Ng Yuk Man <ngyukman@gmail.com>
+MAINTAINER Key <keyfun.hk@gmail.com>
 
 WORKDIR $NODE_MODULE_INSTALLATION_PATH
 
