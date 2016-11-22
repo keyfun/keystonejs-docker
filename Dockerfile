@@ -16,6 +16,7 @@ RUN cd $(npm root -g)/npm \
  && sed -i -e s/graceful-fs/fs-extra/ -e s/fs\.rename/fs\.move/ ./lib/utils/rename.js
 
 RUN npm install dotenv@1.2.0
+RUN npm install jade@1.11.0
 RUN npm install keystone@$KEYSTONEJS_VERSION
 
 WORKDIR /usr/src/app
