@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM node:6.9.4
 
 MAINTAINER Key <keyfun.hk@gmail.com>
 
@@ -21,6 +21,6 @@ RUN npm install keystone@$KEYSTONEJS_VERSION
 
 WORKDIR /usr/src/app
 
-EXPOSE 3000
+EXPOSE 3000 3001
 
 CMD [ "node", "keystone.js" ]
